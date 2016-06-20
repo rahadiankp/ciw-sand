@@ -1,0 +1,56 @@
+#out {
+	border: 1px solid #cccccc;
+	padding: 5px;
+	font-size: 16px;
+	background-image: initial;
+	background-attachment: initial;
+	background-size: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-position: initial;
+	background-repeat: initial;
+}
+
+#editor {
+        border: 1px solid #cccccc;
+	padding: 5px;
+	font-size: 12px;
+	width: 650px;
+	height: 400px;
+}
+
+#input {
+        border: 1px solid #cccccc;
+	padding: 5px;
+	font-size: 12px;
+	width: 445px;
+	height: 400px;
+}
+
+.lang {
+	width: 100px;
+}
+
+.ino {
+	width: 100px;
+}
+
+#pos {
+    height: 100%;
+	width: 660px;
+    overflow: hidden;
+}
+
+.nav-tabs {
+    margin: 0;
+}
+
+.tab-content {
+	width: 100%px;
+    height: 100%; 
+}
+
+#gro {
+	width: 100px;
+   	height: 100%; 
+}
