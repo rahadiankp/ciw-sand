@@ -9,7 +9,8 @@ More functions are to be implemented soon.
 About Third-party
 ------------------
 
-*Ace (Ajax.org Cloud9 Editor)
+*Ace (Ajax.org Cloud9 Editor):
+
 Ace is a standalone code editor written in JavaScript. Our goal is to create a browser based editor that matches and extends the features, usability and performance of existing native editors such as TextMate, Vim or Eclipse. It can be easily embedded in any web page or JavaScript application. Ace is developed as the primary editor for [Cloud9 IDE](https://c9.io/) and the successor of the Mozilla Skywriter (Bespin) Project.
 
 License
