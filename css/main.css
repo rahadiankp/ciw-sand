@@ -15,16 +15,16 @@
         border: 1px solid #cccccc;
 	padding: 5px;
 	font-size: 12px;
-	width: 650px;
-	height: 400px;
+	width: 890px;
+	height: 480px;
 }
 
 #input {
         border: 1px solid #cccccc;
 	padding: 5px;
 	font-size: 12px;
-	width: 445px;
-	height: 400px;
+	width: 430px;
+	height: 480px;
 }
 
 .lang {
@@ -37,7 +37,7 @@
 
 #pos {
     height: 100%;
-	width: 660px;
+	width: 900px;
     overflow: hidden;
 }
 
