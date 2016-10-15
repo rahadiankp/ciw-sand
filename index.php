@@ -21,7 +21,7 @@
 				<ul class="nav nav-tabs">
 					<li class="active"><a data-toggle="tab">Source code</a></li>
 				</ul>
-				<div class="tab-content" id='pos'>
+				<div class="tab-content" id='leftEditor'>
 					<div id="tab1" class="tab-pane active">
 						<pre id='editor'></pre>
 					</div>
@@ -38,11 +38,11 @@
 		<div class="col-md-4">
 			<div  class="tabbable">
 				<ul class="nav nav-tabs" >
-					<li class="tabbies active" id="def"><a>Input</a></li>
-					<li class="tabbies" id="fog"><a>Output</a></li>
-					<li class="tabbies" id="pol"><a>Compilation Res.</a></li>
+					<li class="tabbies active" id="inputTab"><a>Input</a></li>
+					<li class="tabbies" id="outputTab"><a>Output</a></li>
+					<li class="tabbies" id="comTab"><a>Compilation Res.</a></li>
 				</ul>
-				<div class="tab-content" id='gro'>
+				<div class="tab-content" id='rightEditor'>
 					<div id="tab1" class="tab-pane active">
 						<pre id='input'></pre>
 					</div>

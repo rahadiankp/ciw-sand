@@ -1,11 +1,16 @@
-#out {
-	border: 1px solid #cccccc;
-	padding: 5px;
-	font-size: 16px;
+#rightEditor {
+	width: 100px;
+   	height: 100%; 
+}
+
+#leftEditor {
+	height: 100%;
+	width: 900px;
+	overflow: hidden;
 }
 
 #editor {
-        border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
 	padding: 5px;
 	font-size: 12px;
 	width: 890px;
@@ -13,7 +18,7 @@
 }
 
 #input {
-        border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
 	padding: 5px;
 	font-size: 12px;
 	width: 430px;
@@ -24,26 +29,11 @@
 	width: 100px;
 }
 
-.ino {
-	width: 100px;
-}
-
-#pos {
-    height: 100%;
-	width: 900px;
-    overflow: hidden;
-}
-
 .nav-tabs {
-    margin: 0;
+	margin: 0;
 }
 
 .tab-content {
-	width: 100%px;
-    height: 100%; 
-}
-
-#gro {
-	width: 100px;
-   	height: 100%; 
+	width: 100%;
+	height: 100%; 
 }

@@ -1,3 +1,4 @@
+<?php
 /*
  * Name         : idx-ciw.php
  * Author       : Rahadian K.P.
@@ -8,7 +9,6 @@
  *      to jQuery script.
  */
 
-<?php
 include_once('inc/compiler.php');
 include_once('inc/config.php');
 

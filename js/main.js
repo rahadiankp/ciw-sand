@@ -8,6 +8,7 @@ var input = ace.edit("input");
 input.setTheme("ace/theme/iplastic");
 input.session.setMode("ace/mode/plain_text");
 input.renderer.setShowGutter(false);
+input.getSession().setUseWrapMode(true);
 
 //SOME FUNCTIONS
 var blang = $('.lang');
@@ -32,7 +33,7 @@ var oout = $('#out');
 var ores = $('#res');
 
 input.getSession().on('change', function () {
-	if($('#def').hasClass("active")) {
+	if($('#inputTab').hasClass("active")) {
 		pinpot.val(input.getSession().getValue());
 	}
 }); //fixing input bugs
@@ -44,7 +45,7 @@ $('#sub').on("click", function(){
 		ores.val(result.cres);
 		pinpot.val(result.inpot);
 		$(".tabbies").removeClass("disabled");
-		$("#fog").addClass("active");
+		$("#outputTab").addClass("active");
 		input.getSession().setValue(oout.val());
 	}, "json");
 });
@@ -52,7 +53,7 @@ $('#sub').on("click", function(){
 $(".tabbies").on("click", function() {
 	var ini = $(this);
 	ini.addClass("active").siblings().removeClass("active");
-	if(ini.attr('id')=="def") input.getSession().setValue(pinpot.val());
-	else if(ini.attr('id')=="fog") input.getSession().setValue(oout.val());
-	else if(ini.attr('id')=="pol") input.getSession().setValue(ores.val());
+	if(ini.attr('id')=="inputTab") input.getSession().setValue(pinpot.val());
+	else if(ini.attr('id')=="outputTab") input.getSession().setValue(oout.val());
+	else if(ini.attr('id')=="comTab") input.getSession().setValue(ores.val());
 });
