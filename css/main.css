@@ -4,13 +4,13 @@
 }
 
 #leftEditor {
-    height: 100%;
+	height: 100%;
 	width: 900px;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 #editor {
-    border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
 	padding: 5px;
 	font-size: 12px;
 	width: 890px;
@@ -18,7 +18,7 @@
 }
 
 #input {
-    border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
 	padding: 5px;
 	font-size: 12px;
 	width: 430px;
@@ -30,10 +30,10 @@
 }
 
 .nav-tabs {
-    margin: 0;
+	margin: 0;
 }
 
 .tab-content {
 	width: 100%;
-    height: 100%; 
+	height: 100%; 
 }
