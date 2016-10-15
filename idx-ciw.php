@@ -1,3 +1,13 @@
+/*
+ * Name         : idx-ciw.php
+ * Author       : Rahadian K.P.
+ * Last update  : 10/15/2016
+ * Description  :
+ *      This file controls, but dont process, the submissions flow (writing, compiling,
+ *      and running submitted source). Processed submissions are passed using array
+ *      to jQuery script.
+ */
+
 <?php
 include_once('inc/compiler.php');
 include_once('inc/config.php');
@@ -27,7 +37,7 @@ $outcr=file_get_contents($fcrout);
 /*=S=======jQUERY PROCESSING=======*/
 $outcres = array("out" => $output, "cres" => $outcr, "inpot" => $isiinp);
 echo json_encode($outcres);
-/*=E=======jQUERY PROCESSING=======*/:
+/*=E=======jQUERY PROCESSING=======*/
 
 hapusGan($rand); //del source
 
