@@ -10,7 +10,7 @@ function bgnKode($rand,$bhs) {
                         $fcomp="g++ submissions/a--$rand/Main.$bhs -o submissions/a--$rand/src &> submissions/a--$rand/outcr";
                         break;
                 case "c":
-                        $fcomp="gcc submissions/a--$rand/Main.$bhs -o submissions/a--$rand/src &> submissions/a--$rand/outcr";
+                        $fcomp="gcc submissions/a--$rand/Main.$bhs -o -lm submissions/a--$rand/src &> submissions/a--$rand/outcr";
                         break;
 		case "pas":
                         $fcomp="fpc submissions/a--$rand/Main.$bhs &> submissions/a--$rand/outcr";
